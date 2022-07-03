@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Request for Demo</title>
+  </head>
+  <body>
+    <main id="main">
+      <h1>Form</h1>
+      <div id="divBox">
+        <div id="pDiv" class="divs">
+          <p>Get an Email from us</p>
+        </div>
+        <div id="inputDiv" class="divs">
+          <form
+            action="https://formsubmit.co/nikakotrikadze12@gmail.com"
+            method="POST"
+          >
+            <input type="hidden" name="_subject" value="New submission!" />
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+            <br />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://nika-ko.com/thankyoupage.html"
+            />
+            <br />
+
+            <input
+              id="name"
+              type="text"
+              name="message"
+              placeholder="write your message here"
+              required
+            />
+            <br /><br />
+
+            <button id="submit" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
