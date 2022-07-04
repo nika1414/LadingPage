@@ -14,7 +14,7 @@
   </head>
   <body>
     <header id="header">
-      
+      <div id="brand"><a href="/">My brand</a></div>
       <nav class="navbar">
         <ul id="ulBox">
           <li id="li-s"><a id="aH" href="#">Home</a></li>
@@ -23,20 +23,28 @@
           <li id="li-s"><a id="aH" href="#contacts">Contact us</a></li>
         </ul>
       </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div id="bar1"></div>
+        <div id="bar2"></div>
+        <div id="bar3"></div>
+        <ul class="mobile-menu">
+          <li id="li-s"><a id="aH" href="#">Home</a></li>
+          <li id="li-s"><a id="aH" href="#Team">About</a></li>
+          <li id="li-s"><a id="aH" href="#services">Services</a></li>
+          <li id="li-s"><a id="aH" href="#contacts">Contact us</a></li>
+        </ul>
+      </div>
     </header>
 
     <br />
     <br />
 
     <main id="Body">
-      
-        <div id="texts">
-          <h1>
-            One machine can do the work of fifty ordinary men. No machine can do
-            the work of one extraordinary man.
-          </h1>
-        </div>
-        <button id="clickEm">Click 'Em</button>
+      <div id="texts">
+        <h1>
+          One machine can do the work of fifty ordinary men. No machine can do
+          the work of one extraordinary man.
+        </h1>
       </div>
       <img src="images/imgPromote.jpg" alt="IT" />
     </main>
@@ -80,7 +88,12 @@
           Our training and strategic services have helped thousands of
           organizations succeed on social.
         </p>
-        <button onclick="window.location.href='RequestDemo.html'">Request a Demo</button>
+        <button
+          id="demoRequestBtn"
+          onclick="window.location.href='RequestDemo.html'"
+        >
+          Request a Demo
+        </button>
       </div>
       <div id="secondServiceDiv">
         <div id="svgDiv">
