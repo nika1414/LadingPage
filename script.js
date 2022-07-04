@@ -79,8 +79,8 @@ async function getBookAsync(link) {
   let data = await response.json();
   return data;
 }
-// const link =
-//   "https://amazon-kindle-scraper.p.rapidapi.com/search/love?api_key=bc09e263d60d1bbdfc2455c657c5e9bd";
+const link =
+  "https://amazon-kindle-scraper.p.rapidapi.com/search/love?api_key=bc09e263d60d1bbdfc2455c657c5e9bd";
 
 getBookAsync(link).then(
   (data) => (
